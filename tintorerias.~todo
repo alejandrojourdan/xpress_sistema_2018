@@ -1,0 +1,4 @@
+{TODO -oAlejandro Jourdan -cPendientes : Caundo se cierre la aplicación respaldar la base de datos día a día, esto para no peredr datos.}
+{DONE -oAlejandro Jourdan -cPendientes : Hacer codigo para que busque nombre del cliente ademas del telefono, usar el codigo que se implementoen las facturas}
+{DONE -oAlejandro Jourdan -cPendientes : Determinar que hacer en caso de consulta resulte 0 o mas de un cliente}
+ 

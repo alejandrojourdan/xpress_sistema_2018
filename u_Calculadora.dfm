@@ -1,0 +1,49 @@
+object fr_Calculadora: Tfr_Calculadora
+  Left = 371
+  Top = 275
+  BorderIcons = [biSystemMenu]
+  Caption = 'Calculadora'
+  ClientHeight = 262
+  ClientWidth = 215
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object OvcCalculator1: TOvcCalculator
+    Left = 0
+    Top = 0
+    Width = 215
+    Height = 262
+    Align = alClient
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Default'
+    Font.Style = []
+    TapeFont.Charset = DEFAULT_CHARSET
+    TapeFont.Color = clWindowText
+    TapeFont.Height = -13
+    TapeFont.Name = 'Courier New'
+    TapeFont.Style = []
+    Colors.ColorScheme = cscalcCustom
+    Colors.DisabledMemoryButtons = clGray
+    Colors.Display = clWindow
+    Colors.DisplayTextColor = clWindowText
+    Colors.EditButtons = clMaroon
+    Colors.FunctionButtons = clNavy
+    Colors.MemoryButtons = clRed
+    Colors.NumberButtons = clBlue
+    Colors.OperatorButtons = clRed
+    Decimals = 2
+    TapeHeight = 46
+    Options = [coShowItemCount, coShowMemoryButtons, coShowClearTapeButton, coShowTape]
+    ParentFont = False
+    TabOrder = 0
+  end
+end
